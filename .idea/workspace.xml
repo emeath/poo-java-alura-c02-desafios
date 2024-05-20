@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alura_c02_desafios_propostos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/Aluno/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/ContaBancaria/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/IdadePessoa/IdadePessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/Livro/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/Produto/Produto.java" afterDir="false" />
+    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Uploads firt challenges">
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/musica/Artista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/musica/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/Aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/Aluno/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/ContaBancaria/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/ContaBancaria/ContaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/IdadePessoa/IdadePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/IdadePessoa/IdadePessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/Livro/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/Livro/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/Produto/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/Produto/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,28 +43,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Aluno.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContaBancaria.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IdadePessoa.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Livro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Produto.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mm/IdeaProjects/Alura_c02_desafios_propostos&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Aluno.executor": "Run",
+    "Application.ContaBancaria.executor": "Run",
+    "Application.IdadePessoa.executor": "Run",
+    "Application.Livro.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Produto.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/mm/IdeaProjects/Alura_c02_desafios_propostos"
   }
-}</component>
-  <component name="RunManager" selected="Application.Livro">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.matheus.Aluno.Aluno" />
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula02.Aluno.Aluno" />
       <module name="Alura_c02_desafios_propostos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.matheus.Aluno.*" />
+          <option name="PATTERN" value="br.com.matheus.desafios.aula02.Aluno.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="IdadePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.matheus.IdadePessoa.IdadePessoa" />
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula02.IdadePessoa.IdadePessoa" />
       <module name="Alura_c02_desafios_propostos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.matheus.IdadePessoa.*" />
+          <option name="PATTERN" value="br.com.matheus.desafios.aula02.IdadePessoa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,11 +87,11 @@
       </method>
     </configuration>
     <configuration name="Livro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.matheus.Livro.Livro" />
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula02.Livro.Livro" />
       <module name="Alura_c02_desafios_propostos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.matheus.Livro.*" />
+          <option name="PATTERN" value="br.com.matheus.desafios.aula02.Livro.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Alura_c02_desafios_propostos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Produto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.matheus.Produto.Produto" />
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula02.Produto.Produto" />
       <module name="Alura_c02_desafios_propostos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.matheus.Produto.*" />
+          <option name="PATTERN" value="br.com.matheus.desafios.aula02.Produto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,6 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Livro" />
         <item itemvalue="Application.Aluno" />
         <item itemvalue="Application.Produto" />
@@ -136,6 +145,19 @@
       <option name="presentableId" value="Default" />
       <updated>1715714113726</updated>
     </task>
+    <task id="LOCAL-00001" summary="Uploads firt challenges">
+      <option name="closed" value="true" />
+      <created>1716073116598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716073116598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Uploads firt challenges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uploads firt challenges" />
   </component>
 </project>

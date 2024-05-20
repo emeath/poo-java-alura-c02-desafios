@@ -1,4 +1,4 @@
-package br.com.matheus.ContaBancaria;
+package br.com.matheus.desafios.aula02.ContaBancaria;
 
 public class ContaBancaria {
 

@@ -1,4 +1,4 @@
-package br.com.matheus.Aluno;
+package br.com.matheus.desafios.aula02.Aluno;
 
 public class Aluno {
 

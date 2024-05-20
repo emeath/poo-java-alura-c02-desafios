@@ -1,4 +1,4 @@
-package br.com.matheus.IdadePessoa;
+package br.com.matheus.desafios.aula02.IdadePessoa;
 
 public class IdadePessoa {
 

@@ -1,4 +1,4 @@
-package br.com.matheus.Livro;
+package br.com.matheus.desafios.aula02.Livro;
 
 public class Livro {
     private String titulo;

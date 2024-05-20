@@ -1,4 +1,4 @@
-package br.com.matheus.Produto;
+package br.com.matheus.desafios.aula02.Produto;
 
 import java.util.Scanner;
 
