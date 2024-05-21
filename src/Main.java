@@ -50,6 +50,27 @@ public class Main {
         aluno.setNome("John Neves");
         aluno.exibirInformacoes();
 
+        //---------------------------------------
+
+        // aula 03 - exercicio 1
+        br.com.matheus.desafios.aula03.exercicio01.Carro carro1 = new br.com.matheus.desafios.aula03.exercicio01.Carro();
+        carro1.setModelo("Ford Ka");
+        carro1.setPrecoMedioAno1(10000);
+        carro1.setPrecoMedioAno2(20000);
+        carro1.setPrecoMedioAno3(17500);
+        carro1.exibeInformacoes();
+
+        br.com.matheus.desafios.aula03.exercicio01.modeloCarroTruck carro2 = new br.com.matheus.desafios.aula03.exercicio01.modeloCarroTruck();
+        carro2.setModelo("Fiat Toro");
+        carro2.setPrecoMedioAno1(34000);
+        carro2.setPrecoMedioAno2(21300);
+        carro2.setPrecoMedioAno3(77500);
+        carro2.setPossuiTracao4x4(false);
+        carro2.setPossuiCarroceria(true);
+        carro2.setMaximaCargaSuportada(975);
+        carro2.exibeInformacoes();
+
+
 
     }
 }

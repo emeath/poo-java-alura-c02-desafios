@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Uploads firt challenges">
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/musica/Artista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula01/musica/Musica.java" afterDir="false" />
+    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Updates README.md">
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula03/exercicio01/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula03/exercicio01/modeloCarroTruck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/Aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/Aluno/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/ContaBancaria/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/ContaBancaria/ContaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/IdadePessoa/IdadePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/IdadePessoa/IdadePessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/Livro/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/Livro/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/matheus/Produto/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula02/Produto/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -43,22 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Aluno.executor": "Run",
-    "Application.ContaBancaria.executor": "Run",
-    "Application.IdadePessoa.executor": "Run",
-    "Application.Livro.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Produto.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mm/IdeaProjects/Alura_c02_desafios_propostos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Aluno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContaBancaria.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IdadePessoa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Livro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Produto.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mm/IdeaProjects/Alura_c02_desafios_propostos&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Aluno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula02.Aluno.Aluno" />
@@ -153,11 +148,29 @@
       <option name="project" value="LOCAL" />
       <updated>1716073116598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Uploads more challenges">
+      <option name="closed" value="true" />
+      <created>1716167792611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716167792611</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updates README.md">
+      <option name="closed" value="true" />
+      <created>1716167934885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716167934885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uploads firt challenges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploads firt challenges" />
+    <MESSAGE value="Uploads more challenges" />
+    <MESSAGE value="Updates README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates README.md" />
   </component>
 </project>
