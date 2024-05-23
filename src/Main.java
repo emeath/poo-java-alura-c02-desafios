@@ -4,6 +4,7 @@ import br.com.matheus.desafios.aula01.Pessoa;
 import br.com.matheus.desafios.aula01.musica.Artista;
 import br.com.matheus.desafios.aula01.musica.Musica;
 import br.com.matheus.desafios.aula01.Carro;
+import br.com.matheus.desafios.aula03.exercicio02.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -70,6 +71,45 @@ public class Main {
         carro2.setMaximaCargaSuportada(975);
         carro2.exibeInformacoes();
 
+
+        //---------------------------------------
+
+        // aula 03 - exercicio 2
+        Animal animal = new Animal();
+        animal.setAltura(1.3);
+        animal.setIdade(3);
+        animal.setPeso(17.5);
+        animal.setSexo(Sexo.MASCULINO);
+        animal.setNome("Animal");
+        animal.emitirSom();
+        animal.exibirInformacoes();
+
+        Cachorro cachorro = new Cachorro();
+        cachorro.setNome("Rex");
+        cachorro.setRaca(RacaCachorro.SRD);
+        cachorro.setAltura(0.5);
+        cachorro.setIdade(2);
+        cachorro.setPeso(10);
+        cachorro.setSexo(Sexo.MASCULINO);
+        cachorro.exibirInformacoes();
+        cachorro.emitirSom();
+        cachorro.abandarRabo();
+
+        Gato gata = new Gato();
+        gata.setNome("Mimi");
+        gata.setRaca(RacaGato.SIAMES);
+        gata.setAltura(0.32);
+        gata.setIdade(4);
+        gata.setPeso(6);
+        gata.setSexo(Sexo.FEMININO);
+        gata.exibirInformacoes();
+        gata.emitirSom();
+        gata.arranharMoveis();
+
+        BalancaDeAnimais balanca = new BalancaDeAnimais();
+        balanca.pesarAnimal(gata);
+        balanca.pesarAnimal(animal);
+        balanca.pesarAnimal(cachorro);
 
 
     }
