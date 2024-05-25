@@ -5,6 +5,9 @@ import br.com.matheus.desafios.aula01.musica.Artista;
 import br.com.matheus.desafios.aula01.musica.Musica;
 import br.com.matheus.desafios.aula01.Carro;
 import br.com.matheus.desafios.aula03.exercicio02.*;
+import br.com.matheus.desafios.aula03.exercicio03.ContaBancaria;
+import br.com.matheus.desafios.aula03.exercicio03.ContaCorrente;
+import br.com.matheus.desafios.aula03.exercicio03.Titular;
 
 public class Main {
     public static void main(String[] args) {
@@ -110,6 +113,55 @@ public class Main {
         balanca.pesarAnimal(gata);
         balanca.pesarAnimal(animal);
         balanca.pesarAnimal(cachorro);
+
+        //---------------------------------------
+
+        // aula 03 - exercicio 3
+        Titular titular = new Titular();
+        titular.setNome("Nome do Titular");
+        titular.setEndereco("Uma Rua, XXX - Um bairro - Uma cidade, Um estado - Um País");
+        titular.setDocumentoDeIdentificacao("Documento Id: 3234.4432-4323.1234");
+
+        ContaBancaria contaBancaria = new ContaBancaria();
+        contaBancaria.setNumeroDaConta("123-1233");
+        contaBancaria.setTitular(titular);
+        contaBancaria.consultarSaldo();
+        contaBancaria.depositar(1000);
+        contaBancaria.sacar(9999);
+        contaBancaria.depositar(-22);
+        contaBancaria.depositar(1000);
+        contaBancaria.sacar(730);
+        contaBancaria.exibirInformacoesConta();
+
+        Titular titularDaContaCorrente = new Titular();
+        titularDaContaCorrente.setNome("Um Titular de uma Conta Corrente");
+        titularDaContaCorrente.setEndereco("Uma Outra Rua, YYY - Um Bairro Diferente - Uma cidade, Um estado - Um País");
+        titularDaContaCorrente.setDocumentoDeIdentificacao("Documento Id: 0000.4112-0909.1111");
+
+        ContaCorrente contaCorrente = new ContaCorrente();
+        contaCorrente.setNumeroDaConta("cc22-33211-v2");
+        contaCorrente.setTitular(titularDaContaCorrente);
+        contaCorrente.exibirInformacoesConta();
+        contaCorrente.depositar(1000);
+        contaCorrente.receberDepositoSalario(9999);
+        contaCorrente.sacar(500);
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        // passou 1 mes
+        contaCorrente.cobrarTarifaMensal();
+        contaCorrente.exibirInformacoesConta();
+
+
 
 
     }
