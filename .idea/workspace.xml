@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Adds ex03 aula03">
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio01/ConversaoFinanceira.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio01/ConversorMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio01/TestadoraConversorMoeda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio02/CalculadoraSalaCircular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio02/CalculadoraSalaHexagonalRegular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio02/CalculadoraSalaRetangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio02/CalculoGeometrico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio02/TestadoraCalculadoras.java" afterDir="false" />
+    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Adds ex01 aula04">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716662583113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adds ex01 aula04">
+      <option name="closed" value="true" />
+      <created>1716849917362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716849917362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,6 +205,7 @@
     <MESSAGE value="Updates README.md" />
     <MESSAGE value="Adds ex02 aula03" />
     <MESSAGE value="Adds ex03 aula03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds ex03 aula03" />
+    <MESSAGE value="Adds ex01 aula04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds ex01 aula04" />
   </component>
 </project>
