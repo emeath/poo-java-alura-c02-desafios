@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Adds ex01 aula04">
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio03/Tabuada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio03/TabuadaMultiplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio03/TestadoraTabuadaMultiplicacao.java" afterDir="false" />
+    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Adds ex03 aula04">
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio04/ConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio04/ConversorTemperaturaPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio04/TestadoraConversoreTemperaturaPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio05/Calculavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio05/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio05/ProdutoFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio05/TestaProdutos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio06/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio06/Vendavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +53,10 @@
     "Application.Livro.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Produto.executor": "Run",
+    "Application.TestaProdutos.executor": "Run",
     "Application.TestadoraCalculadoras.executor": "Run",
     "Application.TestadoraConversorMoeda.executor": "Run",
+    "Application.TestadoraConversoreTemperaturaPadrao.executor": "Run",
     "Application.TestadoraTabuadaMultiplicacao.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,23 +73,16 @@
       <recent name="br.com.matheus.desafios.aula04.exercicio01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestadoraTabuadaMultiplicacao">
-    <configuration name="Livro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula02.Livro.Livro" />
+  <component name="RunManager" selected="Application.TestaProdutos">
+    <configuration name="TestaProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula04.exercicio05.TestaProdutos" />
       <module name="Alura_c02_desafios_propostos" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.matheus.desafios.aula02.Livro.*" />
+          <option name="PATTERN" value="br.com.matheus.desafios.aula04.exercicio05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Alura_c02_desafios_propostos" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,6 +113,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestadoraConversoreTemperaturaPadrao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula04.exercicio04.TestadoraConversoreTemperaturaPadrao" />
+      <module name="Alura_c02_desafios_propostos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.matheus.desafios.aula04.exercicio04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestadoraTabuadaMultiplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula04.exercicio03.TestadoraTabuadaMultiplicacao" />
       <module name="Alura_c02_desafios_propostos" />
@@ -126,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaProdutos" />
+        <item itemvalue="Application.TestadoraConversoreTemperaturaPadrao" />
         <item itemvalue="Application.TestadoraTabuadaMultiplicacao" />
         <item itemvalue="Application.TestadoraCalculadoras" />
         <item itemvalue="Application.TestadoraConversorMoeda" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Livro" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716849917362</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adds ex03 aula04">
+      <option name="closed" value="true" />
+      <created>1716947074980</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716947074980</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -208,6 +231,7 @@
     <MESSAGE value="Adds ex02 aula03" />
     <MESSAGE value="Adds ex03 aula03" />
     <MESSAGE value="Adds ex01 aula04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds ex01 aula04" />
+    <MESSAGE value="Adds ex03 aula04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds ex03 aula04" />
   </component>
 </project>
