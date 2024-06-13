@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Adds ex04,05 aula04">
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio06/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio06/Servico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio06/TestaProdutoServico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/aula04/exercicio06/Vendavel.java" afterDir="false" />
+    <list default="true" id="08559bdd-4154-4c6b-9c04-98e2e814f539" name="Changes" comment="Adds ex06 aula04">
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/desafio_final/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/desafio_final/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/desafio_final/FiltroRecomendacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/desafio_final/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/desafio_final/Podcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/matheus/desafios/desafio_final/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/mm/IdeaProjects/Alura_c02_desafios_propostos",
+    "last_opened_file_path": "/home/mm/alura/java/curso-02/src_alura/2887-java-screenmatch-oo-aula04",
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "preferences.editor"
   }
@@ -69,7 +71,20 @@
       <recent name="br.com.matheus.desafios.aula04.exercicio01" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaProdutoServico">
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.desafio_final.Principal" />
+      <module name="Alura_c02_desafios_propostos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.matheus.desafios.desafio_final.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestaProdutoServico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula04.exercicio06.TestaProdutoServico" />
       <module name="Alura_c02_desafios_propostos" />
@@ -89,19 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.matheus.desafios.aula04.exercicio05.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestadoraCalculadoras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.matheus.desafios.aula04.exercicio02.TestadoraCalculadoras" />
-      <module name="Alura_c02_desafios_propostos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.matheus.desafios.aula04.exercicio02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Principal" />
         <item itemvalue="Application.TestaProdutoServico" />
         <item itemvalue="Application.TestaProdutos" />
         <item itemvalue="Application.TestadoraConversoreTemperaturaPadrao" />
         <item itemvalue="Application.TestadoraTabuadaMultiplicacao" />
-        <item itemvalue="Application.TestadoraCalculadoras" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717022920552</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adds ex06 aula04">
+      <option name="closed" value="true" />
+      <created>1717099487613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717099487613</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -237,6 +247,7 @@
     <MESSAGE value="Adds ex01 aula04" />
     <MESSAGE value="Adds ex03 aula04" />
     <MESSAGE value="Adds ex04,05 aula04" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds ex04,05 aula04" />
+    <MESSAGE value="Adds ex06 aula04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds ex06 aula04" />
   </component>
 </project>
