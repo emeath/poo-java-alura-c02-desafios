@@ -1,4 +1,4 @@
-package br.com.matheus.desafios.desafio_final;
+package br.com.matheus.desafios.desafio_final.modelos;
 
 import java.util.LinkedList;
 import java.util.List;

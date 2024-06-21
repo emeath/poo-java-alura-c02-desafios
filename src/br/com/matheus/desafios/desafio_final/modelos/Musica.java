@@ -1,6 +1,6 @@
-package br.com.matheus.desafios.desafio_final;
+package br.com.matheus.desafios.desafio_final.modelos;
 
-public class Musica extends Audio implements Classificavel{
+public class Musica extends Audio implements Classificavel {
 
     private String genero;
     private String banda;
